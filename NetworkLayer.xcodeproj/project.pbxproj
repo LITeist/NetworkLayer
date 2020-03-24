@@ -13,6 +13,18 @@
 		0C6CDE432429FEBD00F8E25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6CDE422429FEBD00F8E25B /* Assets.xcassets */; };
 		0C6CDE462429FEBD00F8E25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C6CDE442429FEBD00F8E25B /* LaunchScreen.storyboard */; };
 		0C6CDE512429FEBD00F8E25B /* NetworkLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE502429FEBD00F8E25B /* NetworkLayerTests.swift */; };
+		0C6CDE63242A0E0000F8E25B /* CommonHTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE62242A0E0000F8E25B /* CommonHTTPHeaders.swift */; };
+		0C6CDE66242A0E0600F8E25B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE64242A0E0600F8E25B /* HTTPMethod.swift */; };
+		0C6CDE67242A0E0600F8E25B /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE65242A0E0600F8E25B /* HTTPTask.swift */; };
+		0C6CDE6A242A0E2000F8E25B /* URLRequest+ParametersEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE69242A0E2000F8E25B /* URLRequest+ParametersEncoding.swift */; };
+		0C6CDE6C242A0E2500F8E25B /* URLRequest+CommonHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE6B242A0E2500F8E25B /* URLRequest+CommonHeaders.swift */; };
+		0C6CDE6E242A0E2C00F8E25B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE6D242A0E2C00F8E25B /* Router.swift */; };
+		0C6CDE70242A0E3200F8E25B /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE6F242A0E3200F8E25B /* AnyEncodable.swift */; };
+		0C6CDE72242A0E3900F8E25B /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE71242A0E3900F8E25B /* EndPointType.swift */; };
+		0C6CDE74242A0E8500F8E25B /* SI2EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE73242A0E8500F8E25B /* SI2EndPoint.swift */; };
+		0C6CDE76242A0ECD00F8E25B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6CDE75242A0ECD00F8E25B /* NetworkManager.swift */; };
+		C2BEDE91242A299A00648708 /* SSLPinning.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEDE90242A299A00648708 /* SSLPinning.swift */; };
+		C2BEDE93242A328400648708 /* si2.cer in Resources */ = {isa = PBXBuildFile; fileRef = C2BEDE8E242A289600648708 /* si2.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,18 @@
 		0C6CDE4C2429FEBD00F8E25B /* NetworkLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6CDE502429FEBD00F8E25B /* NetworkLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerTests.swift; sourceTree = "<group>"; };
 		0C6CDE522429FEBD00F8E25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6CDE62242A0E0000F8E25B /* CommonHTTPHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonHTTPHeaders.swift; sourceTree = "<group>"; };
+		0C6CDE64242A0E0600F8E25B /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		0C6CDE65242A0E0600F8E25B /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		0C6CDE69242A0E2000F8E25B /* URLRequest+ParametersEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+ParametersEncoding.swift"; sourceTree = "<group>"; };
+		0C6CDE6B242A0E2500F8E25B /* URLRequest+CommonHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+CommonHeaders.swift"; sourceTree = "<group>"; };
+		0C6CDE6D242A0E2C00F8E25B /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0C6CDE6F242A0E3200F8E25B /* AnyEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
+		0C6CDE71242A0E3900F8E25B /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		0C6CDE73242A0E8500F8E25B /* SI2EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SI2EndPoint.swift; sourceTree = "<group>"; };
+		0C6CDE75242A0ECD00F8E25B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C2BEDE8E242A289600648708 /* si2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = si2.cer; sourceTree = "<group>"; };
+		C2BEDE90242A299A00648708 /* SSLPinning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +103,7 @@
 			children = (
 				0C6CDE392429FEB900F8E25B /* AppDelegate.swift */,
 				0C6CDE3D2429FEB900F8E25B /* ViewController.swift */,
+				0C6CDE5D242A0D8A00F8E25B /* Network */,
 				0C6CDE3F2429FEB900F8E25B /* Main.storyboard */,
 				0C6CDE422429FEBD00F8E25B /* Assets.xcassets */,
 				0C6CDE442429FEBD00F8E25B /* LaunchScreen.storyboard */,
@@ -94,6 +119,73 @@
 				0C6CDE522429FEBD00F8E25B /* Info.plist */,
 			);
 			path = NetworkLayerTests;
+			sourceTree = "<group>";
+		};
+		0C6CDE5D242A0D8A00F8E25B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C2BEDE8F242A298700648708 /* Certificate */,
+				0C6CDE60242A0DD000F8E25B /* Manager */,
+				0C6CDE5F242A0DC800F8E25B /* EndPoint */,
+				0C6CDE5E242A0DBF00F8E25B /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0C6CDE5E242A0DBF00F8E25B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0C6CDE6D242A0E2C00F8E25B /* Router.swift */,
+				0C6CDE6F242A0E3200F8E25B /* AnyEncodable.swift */,
+				0C6CDE71242A0E3900F8E25B /* EndPointType.swift */,
+				0C6CDE68242A0E0F00F8E25B /* URLRequest */,
+				0C6CDE61242A0DEF00F8E25B /* HTTP */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0C6CDE5F242A0DC800F8E25B /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				0C6CDE73242A0E8500F8E25B /* SI2EndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		0C6CDE60242A0DD000F8E25B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0C6CDE75242A0ECD00F8E25B /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0C6CDE61242A0DEF00F8E25B /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				0C6CDE64242A0E0600F8E25B /* HTTPMethod.swift */,
+				0C6CDE65242A0E0600F8E25B /* HTTPTask.swift */,
+				0C6CDE62242A0E0000F8E25B /* CommonHTTPHeaders.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		0C6CDE68242A0E0F00F8E25B /* URLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				0C6CDE6B242A0E2500F8E25B /* URLRequest+CommonHeaders.swift */,
+				0C6CDE69242A0E2000F8E25B /* URLRequest+ParametersEncoding.swift */,
+			);
+			path = URLRequest;
+			sourceTree = "<group>";
+		};
+		C2BEDE8F242A298700648708 /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				C2BEDE8E242A289600648708 /* si2.cer */,
+				C2BEDE90242A299A00648708 /* SSLPinning.swift */,
+			);
+			path = Certificate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2BEDE93242A328400648708 /* si2.cer in Resources */,
 				0C6CDE462429FEBD00F8E25B /* LaunchScreen.storyboard in Resources */,
 				0C6CDE432429FEBD00F8E25B /* Assets.xcassets in Resources */,
 				0C6CDE412429FEB900F8E25B /* Main.storyboard in Resources */,
@@ -197,7 +290,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6CDE76242A0ECD00F8E25B /* NetworkManager.swift in Sources */,
+				0C6CDE6E242A0E2C00F8E25B /* Router.swift in Sources */,
+				0C6CDE70242A0E3200F8E25B /* AnyEncodable.swift in Sources */,
+				0C6CDE6A242A0E2000F8E25B /* URLRequest+ParametersEncoding.swift in Sources */,
+				0C6CDE66242A0E0600F8E25B /* HTTPMethod.swift in Sources */,
+				0C6CDE67242A0E0600F8E25B /* HTTPTask.swift in Sources */,
+				0C6CDE63242A0E0000F8E25B /* CommonHTTPHeaders.swift in Sources */,
+				0C6CDE6C242A0E2500F8E25B /* URLRequest+CommonHeaders.swift in Sources */,
 				0C6CDE3E2429FEB900F8E25B /* ViewController.swift in Sources */,
+				0C6CDE72242A0E3900F8E25B /* EndPointType.swift in Sources */,
+				C2BEDE91242A299A00648708 /* SSLPinning.swift in Sources */,
+				0C6CDE74242A0E8500F8E25B /* SI2EndPoint.swift in Sources */,
 				0C6CDE3A2429FEB900F8E25B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
